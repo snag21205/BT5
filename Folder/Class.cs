@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace BT5_QuanLyKhoa.Models
+namespace BT5.Models
 {
     public class Class
     {

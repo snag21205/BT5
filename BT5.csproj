@@ -46,19 +46,19 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="TreeViewManager.cs" />
-    <Compile Include="StudentManager.cs" />
+    <Compile Include="Folder\TreeViewManager.cs" />
+    <Compile Include="Folder\StudentManager.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Form1.Designer.cs">
       <DependentUpon>Form1.cs</DependentUpon>
     </Compile>
-    <Compile Include="Models\Class.cs" />
-    <Compile Include="Models\DataService.cs" />
-    <Compile Include="Models\Department.cs" />
-    <Compile Include="Models\Student.cs" />
-    <Compile Include="Program.cs" />
+    <Compile Include="Folder\Class.cs" />
+    <Compile Include="Folder\DataService.cs" />
+    <Compile Include="Folder\Department.cs" />
+    <Compile Include="Folder\Student.cs" />
+    <Compile Include="Folder\Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
